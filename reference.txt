@@ -10,3 +10,8 @@ https://bitbucket.org/asomov/snakeyaml/wiki/Documentation
 json:
 
 https://www.baeldung.com/jackson-object-mapper-tutorial
+
+
+Maven:
+
+https://cguntur.me/2020/05/20/understanding-apache-maven-the-series/
