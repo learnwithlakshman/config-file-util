@@ -1,0 +1,12 @@
+
+yml:
+
+https://www.baeldung.com/spring-yaml-vs-properties
+
+https://bitbucket.org/asomov/snakeyaml/wiki/Documentation
+
+
+
+json:
+
+https://www.baeldung.com/jackson-object-mapper-tutorial
