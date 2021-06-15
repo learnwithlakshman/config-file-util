@@ -13,4 +13,11 @@ public class TenantYMLManagerTest {
 		List<Tenant> list = obj.getTenantDetails();
 		assertEquals(4, list.size());
 	}
+	@Test
+	void loadCustomerFromYml() {
+		TenantYMLManager obj = new TenantYMLManager();
+		 Customer customer = obj.getCustomerDetails();
+		 System.out.println(customer);
+	}
+
 }
