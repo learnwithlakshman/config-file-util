@@ -1,7 +1,5 @@
 package com.careerit.reflectionapi;
 
-import java.util.Map;
-
 import com.careerit.yml.Tenant;
 
 class One {

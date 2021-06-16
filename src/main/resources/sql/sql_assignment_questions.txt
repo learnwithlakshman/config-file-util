@@ -42,4 +42,4 @@
 42. Display the details of all the employees working in department 10 whose salary is more than the highest salary being given in department 20. 
 43. Display the details of the nth highest paid employee. 
 44. Display the details of the highest paid employee from each department. 
-45.Display the details of the senior-most employee of each department.
+45. Display the details of the senior-most employee of each department.
