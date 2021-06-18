@@ -8,7 +8,7 @@ class PrintNumbers extends Thread{
 		public void run() {
 			for(int i=1;i<=10;i++) {
 				try {
-					TimeUnit.SECONDS.sleep(1);
+					TimeUnit.SECONDS.sleep(2);
 					System.out.println(Thread.currentThread().getName()+" : "+i);
 				} catch (InterruptedException e) {
 					e.printStackTrace();
