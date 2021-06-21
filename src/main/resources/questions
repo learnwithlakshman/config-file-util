@@ -1,0 +1,56 @@
+1. Create class Employee with fields empno, ename, job, showInfo() and create another class with name EmployeeContainer which contains:
+	
+	addEmployee(Employee emp);
+	deleteEmployee(int empno);
+	viewEmployee(int empno);
+	viewEmployees();
+	
+addEmployee(): should add the employee to the Set in the container class, if the employee is already existing it should display “employee already exists”.
+
+deleteEmployee():It should search for empno in the Set, if empno is found the employee object has to be removed, otherwise it should display “Sorry! Employee is not found”.
+
+viewEmployee():It should search for empno in the Set, if empno is found, the employee details has to be displayed , otherwise it should display “Sorry! Employee is not found”.
+
+viewEmployees(): First make sure Set is not empty, if it is not empty you should display all the employees from Set, otherwise it should display “No elements are added to the Set”.
+
+
+2. A Sports club keeps separately the record of the players in two different games (football,cricket). There are some players who play in both the games. The Sports Club needs to keep track
+of the player playing in both the games. Write a method to accept the two lists containing the names of the players playing in the two games. The method should find out the names of player
+present in both the list and return the names as a Sorted ArrayList.
+
+
+public class Player{
+	String name,email,city,state;
+	int age;
+	------------------
+}
+public List<String> getPlayers(List<Player> football, List<Player> cricket){
+	//Write your logic
+}
+
+
+3. Create class PhonebookClient having user interface like
+	 
+	
+	1. Add new phone book entry
+	2. Search name
+	3. Quit.
+
+Create another
+	public class PhoneBook{
+		Map<String,String> map=new HashMap<>();
+		public void addDetails(String phno,name){
+		//Write your logic
+		}
+		public String getName(String phno){
+		//Write your logic
+		}
+	}
+	
+addDetails(): It should add the phno,name to map object
+getName(): It should search the given phone number in the map and should return the person name, if not it should return “Sorry! No person found with the given number”.
+
+
+	 Option 1: It allows add Phno and Name.
+	 Option 2: It has to take Phno as input from the user and based on that it should return Name
+	 Option 3: Will terminate the program
